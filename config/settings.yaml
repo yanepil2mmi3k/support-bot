@@ -1,0 +1,37 @@
+assignment_mode: manual
+reminder_interval_minutes: 60
+stale_threshold_hours: 6
+stale_summary_hours: 8
+archive_auto_delete: false
+archive_days: 30
+auto_greeting: true
+employee_ratings_visible: false
+report_time: "09:00"
+categories:
+  - "Техническая проблема"
+  - "Оплата и подписка"
+  - "Настройка"
+  - "Другое"
+statuses:
+  - key: new
+    title: "Новый"
+    code: "НВ"
+  - key: work
+    title: "В работе"
+    code: "ВР"
+  - key: waiting
+    title: "Ожидаем ответа клиента"
+    code: "ОК"
+  - key: pause
+    title: "Ожидание"
+    code: "ОЖ"
+    pauses_reminders: true
+  - key: resolved
+    title: "Решён"
+    code: "РШ"
+    closed: true
+  - key: archive
+    title: "Архив"
+    code: "АРХ"
+    closed: true
+    archive: true
